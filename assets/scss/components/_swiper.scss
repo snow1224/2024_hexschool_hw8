@@ -1,0 +1,54 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    font-size: $h6-font-size;
+    background: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    max-width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .swiper-scrollbar{
+    background-color: rgba(0,0,0,0.2);
+  }
+
+  /* 修改按鈕顏色和圖示 */
+.swiper-button-next {
+    background-color: $white; /* 修改背景顏色 */
+    color: $primary; /* 修改文字顏色 */
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 16px;
+    height: 56px;
+    width: 56px;
+    &::after{
+        display: none;
+    }
+}
+.swiper-button-prev {
+    background-color: $white; /* 修改背景顏色 */
+    color: $primary; /* 修改文字顏色 */
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 16px;
+    height: 56px;
+    width: 56px;
+    &::after{
+        display: none;
+    }
+}
